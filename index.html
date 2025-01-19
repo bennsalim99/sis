@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sisitagram</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Sisitagram</h1>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Kullanıcı veya gönderi ara...">
+        </div>
+        <div class="menu">
+            <button onclick="togglePostForm()">Gönderi Paylaş</button>
+            <button>Bildirimler</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="post-form" class="post-form">
+            <textarea id="post-caption" placeholder="Açıklama yazın..."></textarea>
+            <input type="file" id="post-image" accept="image/*">
+            <button onclick="submitPost()">Gönderi Paylaş</button>
+        </section>
+
+        <section class="posts" id="posts">
+            <!-- Gönderiler burada görüntülenecek -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Sisitagram. Tüm hakları saklıdır.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
